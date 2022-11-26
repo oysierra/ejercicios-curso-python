@@ -1,4 +1,4 @@
-cadena = "Esto es una cadena (no importa el tamaño), es debabado o substring"
+cadena = "Esto es una cadena (no importa el tamaño), es debanado o substring"
 
 print(len(cadena)) #el len devuelve el tamaño de la cadena estilo length
 
