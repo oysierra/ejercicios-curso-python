@@ -3,8 +3,8 @@
 
 #Pista: Debes utilizar un método de las cadenas llamado “Replace”, recuerda que la posición de los caracteres empieza en 0.
 
-cadena = "eparado"
+cadena = "Separado"
 print(cadena)
 
 nueva_cadena = cadena.replace("", ",")
-print("S", nueva_cadena)
+print(nueva_cadena)
