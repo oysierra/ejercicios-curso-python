@@ -7,7 +7,7 @@ print(diccionario)
 diccionario.pop(3) 
 print(diccionario)
 
-# get nos devuelve el valor según el parametro (llave) que se indique
+# get Busca un elemento a partir de su clave y si no lo encuentra devuelve un valor por defecto ejemplo colores.get('negro','no se encuentra')
 print(diccionario.get(2))
 
 # setdefault recibe la llave y su valor
