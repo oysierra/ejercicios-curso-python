@@ -5,6 +5,6 @@ diccionario_pais = {"Guatemala": "Ciudad de Guatemala", "El Salvador": "San Salv
 
 pais = input("Indique el pais: ")
 
-pais = pais.capitalize() # independientemente de lo que ingrese al usuario, capitalize convierte la palabra con la primera en mayus y el resto de la palabra en minus
+# pais = pais.capitalize() # independientemente de lo que ingrese al usuario, capitalize convierte la palabra con la primera en mayus y el resto de la palabra en minus
 
 print(diccionario_pais.get(pais , "Ese pais no se encuentra"))
