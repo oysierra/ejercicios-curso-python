@@ -5,4 +5,6 @@ diccionario_pais = {"Guatemala": "Ciudad de Guatemala", "El Salvador": "San Salv
 
 pais = input("Indique el pais: ")
 
+pais = pais.capitalize()
+
 print(diccionario_pais.get(pais , "Ese pais no se encuentra"))
