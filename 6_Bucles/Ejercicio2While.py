@@ -6,5 +6,5 @@ anio = 2022 - edad + 1
 
 while i < edad:
     i += 1
-    print("usted cumplio ",i, " año en ", anio)
+    print("usted cumplio {} año en {}".format(i , anio))
     anio += 1

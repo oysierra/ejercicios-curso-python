@@ -2,7 +2,9 @@
 
 numero = int(input("Ingrese un numero: "))
 i = 0
+multiplicacion = 0
 
 while i <= 10 :
-    print(numero , " x " , i , " = " , (numero*i))
+    multiplicacion = numero * i
+    print("{} x {} = {} ".format(numero,i,multiplicacion))
     i += 1
