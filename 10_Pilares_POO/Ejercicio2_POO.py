@@ -8,16 +8,20 @@ class Calculadora():
         self._numero2 = numero2
     
     # Getter
+    @property
     def numero1(self):
         return self._numero1
     
+    @property
     def numero2(self):
         return self._numero2
     
     # Setter
+    numero1.setter
     def numero1(self, numero1):
         self._numero1 = numero1
     
+    numero2.setter
     def numero2(self, numero2):
         self._numero2 = numero2
     
