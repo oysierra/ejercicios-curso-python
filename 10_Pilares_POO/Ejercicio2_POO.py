@@ -22,30 +22,35 @@ class Calculadora():
         self._numero2 = numero2
     
     # Metodo Suma
-    def sumar(numero1, numero2):
-        suma = numero1 + numero2
-        print("La suma es {}".format(suma))
+    def sumar(self):
+        self.suma = self._numero1 + self._numero2
+        print("La suma es {}".format(self.suma))
     
     # Metodo Resta
-    def restar(numero1, numero2):
-        resta = numero1 - numero2
-        print("La resta es {}".format(resta))
+    def restar(self):
+        self.resta = self._numero1 - self._numero2
+        print("La resta es {}".format(self.resta))
     
     # Metodo Multiplicar
-    def multiplicar(numero1, numero2):
-        multiplicacion = numero1 * numero2
-        print("La multiplicacion es {}".format(multiplicacion))
+    def multiplicar(self):
+        self.multiplicacion = self._numero1 * self._numero2
+        print("La multiplicacion es {}".format(self.multiplicacion))
     
     # Metodo Dividir
-    def dividir(numero1, numero2):
+    def dividir(self):
         try:
-            division = numero1/numero2
-            print("La division es {}".format(division))
+            self.division = self._numero1/self._numero2
+            print("La division es {}".format(self.division))
         except ZeroDivisionError: # se usa para indicar que no se puede dividir entre 0
             print("No se puede dividir entre cero")
 
-calculadora = Calculadora(1, 1)
-calculadora.numero1 = int(input("Digite el primer numero: "))
-calculadora.numero2 = int(input("Indique el siguiente numero: "))
 
-calculadora.sumar(calculadora.numero2)
+numero1 = int(input("Digite el primer numero: "))
+numero2 = int(input("Indique el siguiente numero: "))
+calculadora = Calculadora(numero1, numero2)
+
+
+calculadora.sumar()
+calculadora.restar()
+calculadora.multiplicar()
+calculadora.dividir()
