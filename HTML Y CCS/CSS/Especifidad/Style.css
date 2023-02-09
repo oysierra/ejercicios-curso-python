@@ -2,10 +2,10 @@
     color: blueviolet;
 }
 
-/*#identificador{
+#identificador{
     color: green;
-}}*/
+}
 
 p{
-    color:blue;
+    color:blue !important;
 }
