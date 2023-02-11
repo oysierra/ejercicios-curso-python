@@ -1,0 +1,9 @@
+#Subtitulo_H3,#Subtitulo_H4{
+    background-color: black;
+    color: burlywood;
+}
+
+#Subtitulo_H2, #Subtitulo_H5{
+    background-color: aquamarine;
+    font-family: cursive;
+}
