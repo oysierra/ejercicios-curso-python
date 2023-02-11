@@ -1,0 +1,12 @@
+#Subtitulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+#Titulo{
+    background-color: cadetblue;
+    font-family: cursive;
+}
+#Parrafo{
+    text-align: center;
+}
