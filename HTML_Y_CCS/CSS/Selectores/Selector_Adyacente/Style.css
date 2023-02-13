@@ -1,0 +1,5 @@
+h2 + h3{ /*Se aplica al elemento más cercano consecutivo*/
+    font-weight: bold;
+    color: blueviolet;
+    background-color: aquamarine;
+}
